@@ -161,9 +161,9 @@
              @79: @"F18",
              @80: @"F19",
              @90: @"F20",
-             @72: @"VolumeUp 🔊",
-             @73: @"VolumeDown 🔉",
-             @74: @"Mute 🔇",
+             @72: @"VolumeUp",
+             @73: @"VolumeDown",
+             @74: @"Mute",
              @114: @"Help/Insert",
              @115: @"Home",
              @119: @"End",
@@ -173,8 +173,8 @@
              @124: @"Arrow Right →",
              @125: @"Arrow Down ↓",
              @126: @"Arrow Up ↑",
-             @145: @"Brightness Down 🔅",
-             @144: @"Brightness Up 🔆",
+             @145: @"Brightness Down",
+             @144: @"Brightness Up",
              @130: @"Dashboard",
              @131: @"LaunchPad"
              };

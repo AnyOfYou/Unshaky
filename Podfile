@@ -6,13 +6,5 @@ target 'Unshaky' do
   use_frameworks!
 
   # Pods for Unshaky
-  pod 'Sparkle'
-
-end
-
-target 'UnshakyTests' do
-  use_frameworks!
-
-  pod 'Quick'
-  pod 'Nimble'
+  #  pod 'Sparkle'
 end

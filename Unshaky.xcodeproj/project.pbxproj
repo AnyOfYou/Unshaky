@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -20,43 +20,15 @@
 		5B71184C222608B100B03575 /* Preference.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B71184A222608B100B03575 /* Preference.storyboard */; };
 		5B711851222610C400B03575 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B71184F222610C400B03575 /* Localizable.strings */; };
 		5B93DF61230CC0340085CB9F /* Preference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B93DF60230CC0340085CB9F /* Preference.swift */; };
-		5BB68E1E21A3423300CAA4B4 /* ShakyPressPreventerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB68E1D21A3423300CAA4B4 /* ShakyPressPreventerSpec.swift */; };
 		5BCA730920F5B43300A1210E /* PreferenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCA730820F5B43300A1210E /* PreferenceViewController.swift */; };
 		5BE661592283726B00B2A886 /* KeyboardLayouts.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE661582283726B00B2A886 /* KeyboardLayouts.m */; };
-		5DDFCCEF1C53414916147497 /* Pods_UnshakyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F4C30C977EAB3365268D080 /* Pods_UnshakyTests.framework */; };
 		8A8865A9A724FA97AF9FE132 /* Pods_Unshaky.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3210D714B742F537687136CC /* Pods_Unshaky.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		5BB68E1821A3413900CAA4B4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5B3168E020DB9CF100185DE5 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5B3168E720DB9CF100185DE5;
-			remoteInfo = Unshaky;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		1F4C30C977EAB3365268D080 /* Pods_UnshakyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UnshakyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3210D714B742F537687136CC /* Pods_Unshaky.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Unshaky.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		345B717DD0B36C8846A13E3B /* Pods-Unshaky.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Unshaky.debug.xcconfig"; path = "Target Support Files/Pods-Unshaky/Pods-Unshaky.debug.xcconfig"; sourceTree = "<group>"; };
-		5B229351227D6A0E00266B84 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/MainMenu.strings; sourceTree = "<group>"; };
-		5B229352227D6A0E00266B84 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Preference.strings; sourceTree = "<group>"; };
-		5B229353227D6A0E00266B84 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Debug.strings; sourceTree = "<group>"; };
-		5B229354227D6A1400266B84 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
-		5B229355227D6F2400266B84 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Counter.strings; sourceTree = "<group>"; };
-		5B22A71322E984150051813C /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/MainMenu.strings; sourceTree = "<group>"; };
-		5B22A71422E984150051813C /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/Preference.strings; sourceTree = "<group>"; };
-		5B22A71522E984150051813C /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/Debug.strings; sourceTree = "<group>"; };
-		5B22A71622E984150051813C /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/Counter.strings; sourceTree = "<group>"; };
-		5B22A71722E984150051813C /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/Localizable.strings; sourceTree = "<group>"; };
-		5B22A71822E984470051813C /* sk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sk; path = sk.lproj/MainMenu.strings; sourceTree = "<group>"; };
-		5B22A71922E984470051813C /* sk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sk; path = sk.lproj/Preference.strings; sourceTree = "<group>"; };
-		5B22A71A22E984470051813C /* sk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sk; path = sk.lproj/Debug.strings; sourceTree = "<group>"; };
-		5B22A71B22E984470051813C /* sk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sk; path = sk.lproj/Counter.strings; sourceTree = "<group>"; };
-		5B22A71C22E984470051813C /* sk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sk; path = sk.lproj/Localizable.strings; sourceTree = "<group>"; };
-		5B268EFE2345959300183B9C /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Counter.strings; sourceTree = "<group>"; };
 		5B3168E820DB9CF100185DE5 /* Unshaky.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Unshaky.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B3168EB20DB9CF100185DE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5B3168ED20DB9CF300185DE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -67,97 +39,19 @@
 		5B3168FA20DB9ED300185DE5 /* ShakyPressPreventer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShakyPressPreventer.h; sourceTree = "<group>"; };
 		5B3168FB20DB9ED300185DE5 /* ShakyPressPreventer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShakyPressPreventer.m; sourceTree = "<group>"; };
 		5B31691220DBC43400185DE5 /* ServiceManagement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ServiceManagement.framework; path = System/Library/Frameworks/ServiceManagement.framework; sourceTree = SDKROOT; };
-		5B3AB4DE2228A6510088F06C /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/MainMenu.strings; sourceTree = "<group>"; };
-		5B3AB4DF2228A6520088F06C /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Preference.strings; sourceTree = "<group>"; };
-		5B3AB4E02228A6520088F06C /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
-		5B3B7A5922FDF685008384E0 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/MainMenu.strings; sourceTree = "<group>"; };
-		5B3B7A5A22FDF685008384E0 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Preference.strings; sourceTree = "<group>"; };
-		5B3B7A5B22FDF685008384E0 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Debug.strings; sourceTree = "<group>"; };
-		5B3B7A5C22FDF685008384E0 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Counter.strings; sourceTree = "<group>"; };
-		5B3B7A5D22FDF685008384E0 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Localizable.strings; sourceTree = "<group>"; };
 		5B436147223AF6FF00B6E9E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Debug.storyboard; sourceTree = "<group>"; };
 		5B43614B223B140400B6E9E0 /* DebugViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DebugViewController.h; sourceTree = "<group>"; };
 		5B43614C223B140400B6E9E0 /* DebugViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DebugViewController.m; sourceTree = "<group>"; };
 		5B50712421839D5400A65B81 /* ExportImportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportImportViewController.swift; sourceTree = "<group>"; };
-		5B54A49B22B489AD00DAB2E1 /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = nb.lproj/MainMenu.strings; sourceTree = "<group>"; };
-		5B54A49C22B489AD00DAB2E1 /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = nb.lproj/Preference.strings; sourceTree = "<group>"; };
-		5B54A49D22B489AD00DAB2E1 /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = nb.lproj/Debug.strings; sourceTree = "<group>"; };
-		5B54A49E22B489AD00DAB2E1 /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = nb.lproj/Counter.strings; sourceTree = "<group>"; };
-		5B54A49F22B489AD00DAB2E1 /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = nb.lproj/Localizable.strings; sourceTree = "<group>"; };
 		5B56C1FB22744DBC00F3383F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Counter.storyboard; sourceTree = "<group>"; };
 		5B56C1FD2274510000F3383F /* CounterViewControler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterViewControler.swift; sourceTree = "<group>"; };
-		5B56C20222745AC000F3383F /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Counter.strings"; sourceTree = "<group>"; };
-		5B56C20422745B0A00F3383F /* zh-HK */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-HK"; path = "zh-HK.lproj/Counter.strings"; sourceTree = "<group>"; };
-		5B56C20622745B0B00F3383F /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Counter.strings"; sourceTree = "<group>"; };
 		5B6F59732260121300889D13 /* Counter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Counter.swift; sourceTree = "<group>"; };
-		5B6F59752260177E00889D13 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/MainMenu.strings; sourceTree = "<group>"; };
-		5B6F59762260177E00889D13 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Preference.strings; sourceTree = "<group>"; };
-		5B6F59772260177E00889D13 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Debug.strings; sourceTree = "<group>"; };
 		5B71184B222608B100B03575 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Preference.storyboard; sourceTree = "<group>"; };
-		5B71184D222608F200B03575 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/MainMenu.strings"; sourceTree = "<group>"; };
-		5B71184E222608F200B03575 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Preference.strings"; sourceTree = "<group>"; };
 		5B711850222610C400B03575 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
-		5B711852222610F000B03575 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
-		5B7118542226182500B03575 /* zh-HK */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-HK"; path = "zh-HK.lproj/MainMenu.strings"; sourceTree = "<group>"; };
-		5B7118552226182600B03575 /* zh-HK */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-HK"; path = "zh-HK.lproj/Preference.strings"; sourceTree = "<group>"; };
-		5B7118562226182600B03575 /* zh-HK */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-HK"; path = "zh-HK.lproj/Localizable.strings"; sourceTree = "<group>"; };
-		5B7118572226183400B03575 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/MainMenu.strings"; sourceTree = "<group>"; };
-		5B7118582226183400B03575 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Preference.strings"; sourceTree = "<group>"; };
-		5B7118592226183400B03575 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
-		5B71185D22261A2D00B03575 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/MainMenu.strings; sourceTree = "<group>"; };
-		5B71185E22261A2E00B03575 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Preference.strings; sourceTree = "<group>"; };
-		5B71185F22261A2E00B03575 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
-		5B711863222716E400B03575 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/MainMenu.strings; sourceTree = "<group>"; };
-		5B711864222716E400B03575 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Preference.strings; sourceTree = "<group>"; };
-		5B711865222716E400B03575 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
-		5B8DA9E92253B9BF001BA090 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/MainMenu.strings; sourceTree = "<group>"; };
-		5B8DA9EA2253B9BF001BA090 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Preference.strings; sourceTree = "<group>"; };
-		5B8DA9EB2253B9BF001BA090 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Debug.strings; sourceTree = "<group>"; };
-		5B8DA9EC2253B9BF001BA090 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; };
-		5B8DA9ED2253BA5D001BA090 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/MainMenu.strings; sourceTree = "<group>"; };
-		5B8DA9EE2253BA5D001BA090 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Preference.strings; sourceTree = "<group>"; };
-		5B8DA9EF2253BA5D001BA090 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Debug.strings; sourceTree = "<group>"; };
-		5B8DA9F02253BA5D001BA090 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
-		5B8DA9F12253BAAC001BA090 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/MainMenu.strings; sourceTree = "<group>"; };
-		5B8DA9F22253BAAC001BA090 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/Preference.strings; sourceTree = "<group>"; };
-		5B8DA9F32253BAAC001BA090 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/Debug.strings; sourceTree = "<group>"; };
-		5B8DA9F42253BAAD001BA090 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/Localizable.strings; sourceTree = "<group>"; };
 		5B93DF60230CC0340085CB9F /* Preference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preference.swift; sourceTree = "<group>"; };
-		5BA2B55022695D6A004CC33E /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/MainMenu.strings; sourceTree = "<group>"; };
-		5BA2B55122695D6A004CC33E /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Preference.strings; sourceTree = "<group>"; };
-		5BA2B55222695D6A004CC33E /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Debug.strings; sourceTree = "<group>"; };
-		5BA2B55322695D6A004CC33E /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
-		5BA2B55422695E5F004CC33E /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/MainMenu.strings"; sourceTree = "<group>"; };
-		5BA2B55522695E5F004CC33E /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/Preference.strings"; sourceTree = "<group>"; };
-		5BA2B55622695E5F004CC33E /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/Debug.strings"; sourceTree = "<group>"; };
-		5BA2B55722695E5F004CC33E /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/Localizable.strings"; sourceTree = "<group>"; };
-		5BA5A51B23247A5900581914 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Counter.strings; sourceTree = "<group>"; };
-		5BA5A51D23247A6600581914 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Debug.strings; sourceTree = "<group>"; };
-		5BB68E1321A3413900CAA4B4 /* UnshakyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnshakyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5BB68E1721A3413900CAA4B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5BB68E1D21A3423300CAA4B4 /* ShakyPressPreventerSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakyPressPreventerSpec.swift; sourceTree = "<group>"; };
 		5BCA730820F5B43300A1210E /* PreferenceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceViewController.swift; sourceTree = "<group>"; };
-		5BD2D6EC22B81CFC00FD5E52 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/MainMenu.strings"; sourceTree = "<group>"; };
-		5BD2D6ED22B81CFC00FD5E52 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Preference.strings"; sourceTree = "<group>"; };
-		5BD2D6EE22B81CFC00FD5E52 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Debug.strings"; sourceTree = "<group>"; };
-		5BD2D6EF22B81CFC00FD5E52 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Counter.strings"; sourceTree = "<group>"; };
-		5BD2D6F022B81CFC00FD5E52 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		5BE661572283726B00B2A886 /* KeyboardLayouts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyboardLayouts.h; sourceTree = "<group>"; };
 		5BE661582283726B00B2A886 /* KeyboardLayouts.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyboardLayouts.m; sourceTree = "<group>"; };
-		5BF4F6FC226D4296009F53B0 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Debug.strings"; sourceTree = "<group>"; };
-		5BF4F6FD226D429A009F53B0 /* zh-HK */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-HK"; path = "zh-HK.lproj/Debug.strings"; sourceTree = "<group>"; };
-		5BF4F6FE226D429C009F53B0 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Debug.strings"; sourceTree = "<group>"; };
-		5BF4F6FF226D42BC009F53B0 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Localizable.strings; sourceTree = "<group>"; };
-		5BF4F700226D43AA009F53B0 /* es-419 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-419"; path = "es-419.lproj/Localizable.strings"; sourceTree = "<group>"; };
-		5BF4F701226D43AA009F53B0 /* es-419 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-419"; path = "es-419.lproj/MainMenu.strings"; sourceTree = "<group>"; };
-		5BF4F702226D43AA009F53B0 /* es-419 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-419"; path = "es-419.lproj/Preference.strings"; sourceTree = "<group>"; };
-		5BF4F703226D43AA009F53B0 /* es-419 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-419"; path = "es-419.lproj/Debug.strings"; sourceTree = "<group>"; };
-		5BF4F704226D91F9009F53B0 /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/MainMenu.strings; sourceTree = "<group>"; };
-		5BF4F705226D91F9009F53B0 /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/Preference.strings; sourceTree = "<group>"; };
-		5BF4F706226D91F9009F53B0 /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/Debug.strings; sourceTree = "<group>"; };
-		5BF4F707226D91F9009F53B0 /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/Localizable.strings; sourceTree = "<group>"; };
-		DC65E0327412179B1BD85998 /* Pods-UnshakyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnshakyTests.debug.xcconfig"; path = "Target Support Files/Pods-UnshakyTests/Pods-UnshakyTests.debug.xcconfig"; sourceTree = "<group>"; };
-		DDDDD71728B7B66F527D9565 /* Pods-UnshakyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnshakyTests.release.xcconfig"; path = "Target Support Files/Pods-UnshakyTests/Pods-UnshakyTests.release.xcconfig"; sourceTree = "<group>"; };
 		FE12C965EC0C37A2C87000C1 /* Pods-Unshaky.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Unshaky.release.xcconfig"; path = "Target Support Files/Pods-Unshaky/Pods-Unshaky.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -170,14 +64,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5BB68E1021A3413900CAA4B4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5DDFCCEF1C53414916147497 /* Pods_UnshakyTests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -185,7 +71,6 @@
 			isa = PBXGroup;
 			children = (
 				5B3168EA20DB9CF100185DE5 /* Unshaky */,
-				5BB68E1421A3413900CAA4B4 /* UnshakyTests */,
 				5B3168E920DB9CF100185DE5 /* Products */,
 				5B31691120DBC43300185DE5 /* Frameworks */,
 				F96D08A19C0BFF4E7FE460FC /* Pods */,
@@ -196,7 +81,6 @@
 			isa = PBXGroup;
 			children = (
 				5B3168E820DB9CF100185DE5 /* Unshaky.app */,
-				5BB68E1321A3413900CAA4B4 /* UnshakyTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -239,22 +123,11 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		5BB68E1421A3413900CAA4B4 /* UnshakyTests */ = {
-			isa = PBXGroup;
-			children = (
-				5BB68E1D21A3423300CAA4B4 /* ShakyPressPreventerSpec.swift */,
-				5BB68E1721A3413900CAA4B4 /* Info.plist */,
-			);
-			path = UnshakyTests;
-			sourceTree = "<group>";
-		};
 		F96D08A19C0BFF4E7FE460FC /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				345B717DD0B36C8846A13E3B /* Pods-Unshaky.debug.xcconfig */,
 				FE12C965EC0C37A2C87000C1 /* Pods-Unshaky.release.xcconfig */,
-				DC65E0327412179B1BD85998 /* Pods-UnshakyTests.debug.xcconfig */,
-				DDDDD71728B7B66F527D9565 /* Pods-UnshakyTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -270,8 +143,6 @@
 				5B3168E420DB9CF100185DE5 /* Sources */,
 				5B3168E520DB9CF100185DE5 /* Frameworks */,
 				5B3168E620DB9CF100185DE5 /* Resources */,
-				754ACF38B6C4124DB0E9DBFF /* [CP] Embed Pods Frameworks */,
-				5B5071232183933500A65B81 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -281,26 +152,6 @@
 			productName = Unshaky;
 			productReference = 5B3168E820DB9CF100185DE5 /* Unshaky.app */;
 			productType = "com.apple.product-type.application";
-		};
-		5BB68E1221A3413900CAA4B4 /* UnshakyTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5BB68E1C21A3413900CAA4B4 /* Build configuration list for PBXNativeTarget "UnshakyTests" */;
-			buildPhases = (
-				63A7B0E478BADB58754CFBEC /* [CP] Check Pods Manifest.lock */,
-				5BB68E0F21A3413900CAA4B4 /* Sources */,
-				5BB68E1021A3413900CAA4B4 /* Frameworks */,
-				5BB68E1121A3413900CAA4B4 /* Resources */,
-				91EE32B2A21145C6F7CD02A5 /* [CP] Embed Pods Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5BB68E1921A3413900CAA4B4 /* PBXTargetDependency */,
-			);
-			name = UnshakyTests;
-			productName = UnshakyTests;
-			productReference = 5BB68E1321A3413900CAA4B4 /* UnshakyTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -320,10 +171,6 @@
 								enabled = 0;
 							};
 						};
-					};
-					5BB68E1221A3413900CAA4B4 = {
-						CreatedOnToolsVersion = 10.1;
-						TestTargetID = 5B3168E720DB9CF100185DE5;
 					};
 				};
 			};
@@ -361,7 +208,6 @@
 			projectRoot = "";
 			targets = (
 				5B3168E720DB9CF100185DE5 /* Unshaky */,
-				5BB68E1221A3413900CAA4B4 /* UnshakyTests */,
 			);
 		};
 /* End PBXProject section */
@@ -377,13 +223,6 @@
 				5B3168F120DB9CF300185DE5 /* MainMenu.xib in Resources */,
 				5B71184C222608B100B03575 /* Preference.storyboard in Resources */,
 				5B56C1FC22744DBC00F3383F /* Counter.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5BB68E1121A3413900CAA4B4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,79 +251,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		5B5071232183933500A65B81 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "LOCATION=\"${BUILT_PRODUCTS_DIR}\"/\"${FRAMEWORKS_FOLDER_PATH}\"\n\n# By default, use the configured code signing identity for the project/target\nIDENTITY=\"${CODE_SIGN_IDENTITY}\"\nIDENTITY=\"Apple Development: Xinhong Liu (32BU6UVQ76)\"\nif [ \"$IDENTITY\" == \"\" ]\nthen\n# If a code signing identity is not specified, use ad hoc signing\nIDENTITY=\"-\"\nfi\nif [ \"$DONT_CODE_SIGN\" == \"YES\" ]\nthen\n# If a code signing identity is not specified, use ad hoc signing\nIDENTITY=\"-\"\nfi\ncodesign --verbose --force --deep -o runtime --sign \"$IDENTITY\" \"$LOCATION/Sparkle.framework/Versions/A/Resources/AutoUpdate.app\"\ncodesign --verbose --force -o runtime --sign \"$IDENTITY\" \"$LOCATION/Sparkle.framework/Versions/A\"\n";
-		};
-		63A7B0E478BADB58754CFBEC /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-UnshakyTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		754ACF38B6C4124DB0E9DBFF /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Unshaky/Pods-Unshaky-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Unshaky/Pods-Unshaky-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Unshaky/Pods-Unshaky-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		91EE32B2A21145C6F7CD02A5 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-UnshakyTests/Pods-UnshakyTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-UnshakyTests/Pods-UnshakyTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UnshakyTests/Pods-UnshakyTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -504,49 +270,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5BB68E0F21A3413900CAA4B4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5BB68E1E21A3423300CAA4B4 /* ShakyPressPreventerSpec.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		5BB68E1921A3413900CAA4B4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5B3168E720DB9CF100185DE5 /* Unshaky */;
-			targetProxy = 5BB68E1821A3413900CAA4B4 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		5B3168EF20DB9CF300185DE5 /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				5B3168F020DB9CF300185DE5 /* Base */,
-				5B71184D222608F200B03575 /* zh-Hans */,
-				5B7118542226182500B03575 /* zh-HK */,
-				5B7118572226183400B03575 /* zh-Hant */,
-				5B71185D22261A2D00B03575 /* ja */,
-				5B3AB4DE2228A6510088F06C /* fr */,
-				5B711863222716E400B03575 /* de */,
-				5B8DA9ED2253BA5D001BA090 /* ru */,
-				5B8DA9F12253BAAC001BA090 /* uk */,
-				5B8DA9E92253B9BF001BA090 /* tr */,
-				5B6F59752260177E00889D13 /* ko */,
-				5BA2B55022695D6A004CC33E /* it */,
-				5BA2B55422695E5F004CC33E /* pt-PT */,
-				5BF4F704226D91F9009F53B0 /* id */,
-				5BF4F701226D43AA009F53B0 /* es-419 */,
-				5B229351227D6A0E00266B84 /* nl */,
-				5B54A49B22B489AD00DAB2E1 /* nb */,
-				5BD2D6EC22B81CFC00FD5E52 /* pt-BR */,
-				5B22A71322E984150051813C /* cs */,
-				5B22A71822E984470051813C /* sk */,
-				5B3B7A5922FDF685008384E0 /* pl */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";
@@ -555,24 +285,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				5B436147223AF6FF00B6E9E0 /* Base */,
-				5B8DA9EF2253BA5D001BA090 /* ru */,
-				5B8DA9F32253BAAC001BA090 /* uk */,
-				5B8DA9EB2253B9BF001BA090 /* tr */,
-				5B6F59772260177E00889D13 /* ko */,
-				5BA2B55222695D6A004CC33E /* it */,
-				5BA2B55622695E5F004CC33E /* pt-PT */,
-				5BF4F6FC226D4296009F53B0 /* zh-Hans */,
-				5BF4F6FD226D429A009F53B0 /* zh-HK */,
-				5BF4F6FE226D429C009F53B0 /* zh-Hant */,
-				5BF4F706226D91F9009F53B0 /* id */,
-				5BF4F703226D43AA009F53B0 /* es-419 */,
-				5B229353227D6A0E00266B84 /* nl */,
-				5B54A49D22B489AD00DAB2E1 /* nb */,
-				5BD2D6EE22B81CFC00FD5E52 /* pt-BR */,
-				5B22A71522E984150051813C /* cs */,
-				5B22A71A22E984470051813C /* sk */,
-				5B3B7A5B22FDF685008384E0 /* pl */,
-				5BA5A51D23247A6600581914 /* ja */,
 			);
 			name = Debug.storyboard;
 			sourceTree = "<group>";
@@ -581,17 +293,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				5B56C1FB22744DBC00F3383F /* Base */,
-				5B56C20222745AC000F3383F /* zh-Hans */,
-				5B56C20422745B0A00F3383F /* zh-HK */,
-				5B56C20622745B0B00F3383F /* zh-Hant */,
-				5B229355227D6F2400266B84 /* nl */,
-				5B54A49E22B489AD00DAB2E1 /* nb */,
-				5BD2D6EF22B81CFC00FD5E52 /* pt-BR */,
-				5B22A71622E984150051813C /* cs */,
-				5B22A71B22E984470051813C /* sk */,
-				5B3B7A5C22FDF685008384E0 /* pl */,
-				5BA5A51B23247A5900581914 /* ja */,
-				5B268EFE2345959300183B9C /* tr */,
 			);
 			name = Counter.storyboard;
 			sourceTree = "<group>";
@@ -600,26 +301,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				5B71184B222608B100B03575 /* Base */,
-				5B71184E222608F200B03575 /* zh-Hans */,
-				5B7118552226182600B03575 /* zh-HK */,
-				5B7118582226183400B03575 /* zh-Hant */,
-				5B71185E22261A2E00B03575 /* ja */,
-				5B3AB4DF2228A6520088F06C /* fr */,
-				5B711864222716E400B03575 /* de */,
-				5B8DA9EE2253BA5D001BA090 /* ru */,
-				5B8DA9F22253BAAC001BA090 /* uk */,
-				5B8DA9EA2253B9BF001BA090 /* tr */,
-				5B6F59762260177E00889D13 /* ko */,
-				5BA2B55122695D6A004CC33E /* it */,
-				5BA2B55522695E5F004CC33E /* pt-PT */,
-				5BF4F705226D91F9009F53B0 /* id */,
-				5BF4F702226D43AA009F53B0 /* es-419 */,
-				5B229352227D6A0E00266B84 /* nl */,
-				5B54A49C22B489AD00DAB2E1 /* nb */,
-				5BD2D6ED22B81CFC00FD5E52 /* pt-BR */,
-				5B22A71422E984150051813C /* cs */,
-				5B22A71922E984470051813C /* sk */,
-				5B3B7A5A22FDF685008384E0 /* pl */,
 			);
 			name = Preference.storyboard;
 			sourceTree = "<group>";
@@ -628,26 +309,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				5B711850222610C400B03575 /* Base */,
-				5B711852222610F000B03575 /* zh-Hans */,
-				5B7118562226182600B03575 /* zh-HK */,
-				5B7118592226183400B03575 /* zh-Hant */,
-				5B71185F22261A2E00B03575 /* ja */,
-				5B3AB4E02228A6520088F06C /* fr */,
-				5B711865222716E400B03575 /* de */,
-				5B8DA9F02253BA5D001BA090 /* ru */,
-				5B8DA9F42253BAAD001BA090 /* uk */,
-				5B8DA9EC2253B9BF001BA090 /* tr */,
-				5BA2B55322695D6A004CC33E /* it */,
-				5BA2B55722695E5F004CC33E /* pt-PT */,
-				5BF4F6FF226D42BC009F53B0 /* ko */,
-				5BF4F707226D91F9009F53B0 /* id */,
-				5BF4F700226D43AA009F53B0 /* es-419 */,
-				5B229354227D6A1400266B84 /* nl */,
-				5B54A49F22B489AD00DAB2E1 /* nb */,
-				5BD2D6F022B81CFC00FD5E52 /* pt-BR */,
-				5B22A71722E984150051813C /* cs */,
-				5B22A71C22E984470051813C /* sk */,
-				5B3B7A5D22FDF685008384E0 /* pl */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -689,7 +350,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer: Xinhong Liu (32BU6UVQ76)";
+				CODE_SIGN_IDENTITY = "-";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -752,7 +413,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer: Xinhong Liu (32BU6UVQ76)";
+				CODE_SIGN_IDENTITY = "-";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -780,12 +441,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 48;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 92D95TWTWQ;
+				DEVELOPMENT_TEAM = 53AV6PSJHF;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = Unshaky/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -809,12 +470,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 48;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 92D95TWTWQ;
+				DEVELOPMENT_TEAM = 53AV6PSJHF;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = Unshaky/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -828,61 +489,6 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Unshaky/Unshaky-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
-		5BB68E1A21A3413900CAA4B4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DC65E0327412179B1BD85998 /* Pods-UnshakyTests.debug.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_IDENTITY = "Mac Developer";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 92D95TWTWQ;
-				INFOPLIST_FILE = UnshakyTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nestederror.UnshakyTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "Unshaky/Unshaky-Bridging-Header.h";
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Unshaky.app/Contents/MacOS/Unshaky";
-			};
-			name = Debug;
-		};
-		5BB68E1B21A3413900CAA4B4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DDDDD71728B7B66F527D9565 /* Pods-UnshakyTests.release.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_IDENTITY = "Mac Developer";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 92D95TWTWQ;
-				INFOPLIST_FILE = UnshakyTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nestederror.UnshakyTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "Unshaky/Unshaky-Bridging-Header.h";
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Unshaky.app/Contents/MacOS/Unshaky";
 			};
 			name = Release;
 		};
@@ -903,15 +509,6 @@
 			buildConfigurations = (
 				5B3168F720DB9CF300185DE5 /* Debug */,
 				5B3168F820DB9CF300185DE5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5BB68E1C21A3413900CAA4B4 /* Build configuration list for PBXNativeTarget "UnshakyTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5BB68E1A21A3413900CAA4B4 /* Debug */,
-				5BB68E1B21A3413900CAA4B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

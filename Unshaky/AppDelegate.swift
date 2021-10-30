@@ -27,7 +27,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     }
 
     @objc func updateStatLabel() {
-        dismissShakyPressCountMenuItem.title = "☚ \(Counter.shared.statString)..."
+        dismissShakyPressCountMenuItem.title = "\(Counter.shared.statString)"
     }
 
     @IBAction func quitClicked(_ sender: Any) {
@@ -36,8 +36,8 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
     @objc func updateEnabledLabel() {
         isEnabledMenuItem.title = ShakyPressPreventer.sharedInstance().isDisabled()
-            ? NSLocalizedString("💤 Unshaky is disabled, click to enable", comment: "")
-            : NSLocalizedString("🧹 Unshaky is enabled, click to disable", comment: "");
+            ? NSLocalizedString("Unshaky is disabled, click to enable", comment: "")
+            : NSLocalizedString("Unshaky is enabled, click to disable", comment: "");
     }
 
     @IBAction func enabledClicked(_ sender: Any) {
@@ -130,6 +130,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         let windowStyleMaskRawValue = NSWindow.StyleMask.closable.rawValue | NSWindow.StyleMask.titled.rawValue | NSWindow.StyleMask.resizable.rawValue
         let windowFrame = NSMakeRect(100, 100, 600, 400)
         debugWindow = NSWindow(contentRect: windowFrame, styleMask: .init(rawValue: windowStyleMaskRawValue), backing: .buffered, defer: false)
+        debugWindow.center()
         debugWindowController = NSWindowController(window: debugWindow)
         debugWindow.delegate = self
 
@@ -157,6 +158,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         let preferencePanelStoryboard = NSStoryboard(name: "Preference", bundle: nil)
         preferenceWindowController = (preferencePanelStoryboard.instantiateController(withIdentifier: "Preference") as! NSWindowController)
         preferenceWindowController.showWindow(self)
+        preferenceWindowController.window?.center()
         NSApp.activate(ignoringOtherApps: true)
     }
 
@@ -168,6 +170,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         let counterPanelStoryboard = NSStoryboard(name: "Counter", bundle: nil)
         counterWindowController = (counterPanelStoryboard.instantiateController(withIdentifier: "Counter") as! NSWindowController)
         counterWindowController.showWindow(self)
+        counterWindowController.window?.center()
         NSApp.activate(ignoringOtherApps: true)
     }
 }
